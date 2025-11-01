@@ -1,0 +1,150 @@
+.menu {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+@media screen and (min-width:768px) {
+    .menu {
+        display: none;
+    }
+}
+
+.logo-img {
+    height: 20px;
+    width: 20px;
+    ;
+}
+
+@media screen and (min-width:768px) {
+    .logo-img {
+        height: 32px;
+        width: 32px;
+        margin-left: 10px;
+    }
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 800;
+    font-style: Extra Bold;
+    margin-top: 0px;
+}
+
+
+@media screen and (min-width:768px) {
+    .heading {
+        font-size: 36px;
+        font-weight: 800;
+        font-style: Extra Bold;
+    }
+}
+
+.mini-logo {
+    height: 18px;
+    width: 18px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.mini-logos {
+    height: 18px;
+    width: 18px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.mini-logos-eng {
+    height: 12px;
+    width: 18px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.mini-logos-arr {
+    height: 12px;
+    width: 18px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+@media screen and (max-width:767px) {
+    .mini-logos {
+        display: none;
+    }
+
+    .mini-logos-eng {
+        display: none;
+    }
+
+    .mini-logos-arr {
+        display: none;
+    }
+
+}
+
+.head-con {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo-list {
+    margin-top: 8px;
+}
+
+@media screen and (max-width:767px) {
+    .logo-list {
+        margin-top: 0px;
+    }
+
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    width: 636px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: Bold;
+    font-family: "Simplon Norm";
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:767px) {
+    .nav-list {
+        margin-top: 0px;
+        list-style-type: none;
+        display: flex;
+        width: 343px;
+        justify-content: flex-start;
+    }
+
+    .nav-item {
+        font-size: 12px;
+        font-weight: 400;
+        font-style: Regular;
+        font-family: "Simplon Norm";
+    }
+    .mis{
+        display: none
+    }
+}
+
+@media screen and (min-width:768px){
+    .hr-small{
+        display: none;
+    }
+}
+
+@media screen and (max-width:767px){
+    .hr-big{
+        display: none;
+    }
+}
