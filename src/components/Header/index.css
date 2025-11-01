@@ -103,7 +103,6 @@
 .nav-list {
     list-style-type: none;
     display: flex;
-    width: 636px;
     align-items: center;
     justify-content: center;
 }
@@ -113,8 +112,8 @@
     font-weight: 700;
     font-style: Bold;
     font-family: "Simplon Norm";
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 @media screen and (max-width:767px) {
@@ -132,19 +131,20 @@
         font-style: Regular;
         font-family: "Simplon Norm";
     }
-    .mis{
+
+    .mis {
         display: none
     }
 }
 
-@media screen and (min-width:768px){
-    .hr-small{
+@media screen and (min-width:767px) {
+    .hr-small {
         display: none;
     }
 }
 
-@media screen and (max-width:767px){
-    .hr-big{
+@media screen and (max-width:767px) {
+    .hr-big {
         display: none;
     }
 }

@@ -1,0 +1,124 @@
+.footer-bg {
+    background-color: black;
+}
+
+.footer-con {
+    padding: 30px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-head {
+    font-family:"Simplon Norm";
+    font-weight: 700;
+    font-style:  Bold ;
+    font-size:  20px;
+    color: white;
+}
+.footer-para {
+    font-family:"Simplon Norm";
+    font-weight: 400;
+    font-style:  Regular ;
+    font-size:  16px;
+    color: white;
+}
+.input-box{
+    height: 30px;
+    width: 384px;
+    padding: 4px;
+}
+.btn {
+    background: transparent;
+    height: 40px;
+    color: white;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: 1px solid ;
+    outline: none;
+}
+.hr-small{
+    display: none
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:767px){
+    .input-box{
+        width: 226px;
+        height: 30px;
+    }
+    .footer-head{
+        font-size: 16px;
+    }
+    .footer-para{
+        font-size: 12px;
+    }
+    .footer-top{
+        display: block;
+        padding: 10px;
+    }
+    .contact-sec{
+        display: none;
+    }
+    .footer-con{
+        padding: 0px;
+    }
+    .hr-small{
+        display: block
+    }
+    .footer-bottom{
+        display: none;
+    }
+    .hr-removed-in-small{
+        display: none;
+    }
+}
+.contact-sec-small{
+       padding: 10px;
+    }
+
+@media screen and (min-width:767px){
+    .contact-sec-small{
+        display: none;
+    }
+}
+.fb-3-1{
+    margin-top:40px;
+}
+.footer-para-cr{
+    font-family:"Simplon Norm";
+    font-weight: 400;
+    font-style:  Regular ;
+    font-size:  16px;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width:767px) {
+    .footer-para-cr{
+        font-size: 12px;
+    }
+}
+.cr-icon{
+    margin-top: 30px;
+}
+.selection{
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.opt{
+    background-color: black;
+}
+.selected{
+    font-size:30px;
+    font-weight: 700;
+}
